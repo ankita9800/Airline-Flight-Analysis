@@ -1,0 +1,6 @@
+"0",""
+"0",""
+"0","kable("
+"0","  df220 %>% "
+"0","    summarize(DAY_OF_MONTH=n()),"
+"0","caption=""Number of rows in February 2020 dataset"")"

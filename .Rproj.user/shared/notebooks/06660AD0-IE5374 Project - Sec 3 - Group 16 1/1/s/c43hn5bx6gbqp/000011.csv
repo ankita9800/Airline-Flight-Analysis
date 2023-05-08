@@ -1,0 +1,7 @@
+"0",""
+"0","# Create a bar chart for each Weekday "
+"0","Task2 %>% "
+"0","  ggplot(aes(Flight_count, Day.of.week,))+"
+"0","  geom_bar(stat= ""identity"", color=""darkblue"", fill=""lightblue"" )+"
+"0","  labs(x= ""Number of Flight"", y= ""Weekday"")+"
+"0","  ggtitle(""Total Number of Flights vs. Weekdays"")"

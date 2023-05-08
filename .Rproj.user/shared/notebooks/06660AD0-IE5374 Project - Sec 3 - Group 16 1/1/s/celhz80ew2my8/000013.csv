@@ -1,0 +1,6 @@
+"0",""
+"0",""
+"0","kable("
+"0","  df219 %>% "
+"0","    summarize(DAY_OF_MONTH=n()),"
+"0","caption=""Number of rows in February 2019 dataset"")"

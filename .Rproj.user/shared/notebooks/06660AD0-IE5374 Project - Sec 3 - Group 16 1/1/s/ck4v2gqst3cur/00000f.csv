@@ -1,0 +1,4 @@
+"0","# Display the largest distance by using maximize function"
+"0","kable("
+"0","  max(df$DISTANCE),"
+"0","  caption = ""The Largest Distance"", col.names = c(""Distance (mile)"") )"

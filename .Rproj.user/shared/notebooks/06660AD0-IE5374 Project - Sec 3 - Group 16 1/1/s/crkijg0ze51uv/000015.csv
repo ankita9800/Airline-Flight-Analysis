@@ -1,0 +1,8 @@
+"0",""
+"0","# Check for February 2020"
+"0","kable("
+"0","  df220 %>% "
+"0","    group_by(`Flight Number`, Day.of.month, Dep.time, Arr.time, DISTANCE) %>% "
+"0","    count(sort = TRUE)%>% "
+"0","    head(10)"
+"0","  ,caption=""Duplication Check for February 2020"")"

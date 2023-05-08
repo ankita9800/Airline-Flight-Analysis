@@ -1,0 +1,6 @@
+"0",""
+"0","kable("
+"0","  df120 %>%"
+"0","    summarise_all(funs(sum(is.na(.))))%>% "
+"0","    t()"
+"0","  ,caption=""2nd Time Check for NA January 2020"")"

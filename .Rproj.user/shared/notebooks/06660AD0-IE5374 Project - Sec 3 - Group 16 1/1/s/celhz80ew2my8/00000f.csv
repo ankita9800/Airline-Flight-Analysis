@@ -1,0 +1,8 @@
+"0",""
+"0","# Count for max number row in the data set using summarize function rather than dimension function"
+"0","# Summarize function provide only one out out that we need"
+"0",""
+"0","kable("
+"0","  df119 %>% "
+"0","    summarize(DAY_OF_MONTH=n()),"
+"0","caption=""Number of rows in January 2019 dataset"")"

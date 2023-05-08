@@ -1,0 +1,8 @@
+"0",""
+"0","# Using max min and mean to output relationship in numerical perspective for delayed flight"
+"0","kable("
+"0","  df %>% "
+"0","  filter(DEP_DEL15 == 1) %>% "
+"0","  summarise(max_distance=max(DISTANCE), min_distance=min(DISTANCE), avg_distance=mean(DISTANCE)), "
+"0","  caption=""Summary Statistics for Delayed flight"""
+"0",")"

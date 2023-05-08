@@ -1,0 +1,8 @@
+"0","C %>% "
+"0","  ggplot(aes(x=reorder(`Air Carrier Name`,-`AVERAGE DELAY`), y=`AVERAGE DELAY`,"
+"0","             fill= `AVERAGE DELAY`))+"
+"0","  geom_bar(stat = ""identity"")+"
+"0","  ggtitle(""Average Delays of the FLight"")+"
+"0","  labs(x= ""Air Carriers"", y= ""Average Delay"")+"
+"0","  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1, ))+"
+"0","  theme(plot.margin=unit(c(1,1,1.5,1.2),""cm""))"

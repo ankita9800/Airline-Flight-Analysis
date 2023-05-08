@@ -1,0 +1,8 @@
+"0",""
+"0","# Select everything is not in date format."
+"0","kable("
+"0","  df220 %>% "
+"0","    filter(is.Date(Day.of.month)==FALSE) %>%"
+"0","             select(Day.of.month),"
+"0","           caption=""is.Date() Check for February-2020"""
+"0","  )"

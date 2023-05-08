@@ -1,0 +1,8 @@
+"0",""
+"0","# Which flight had the smallest distance and was there a delay?"
+"0","kable("
+"0","  df %>% "
+"0","  filter(DISTANCE == min(df$DISTANCE)) %>% "
+"0","  count(DEP_DEL15)"
+"0","  ,caption=""Smallest Distance and Delay"", col.names = c(""If Delayed?"", ""Number of the observation"")"
+"0",")"
