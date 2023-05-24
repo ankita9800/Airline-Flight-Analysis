@@ -5,6 +5,7 @@ This Data Analytics project focuses on analyzing flight data for the months of J
 After combining the datasets, a Data Acquisition and Data Wrangling process was performed to filter out irrelevant data and make the dataset more stable for analysis. The aim was to answer relevant business questions using a clean and organized dataset. Visualizations were also created to better represent the data.   
 
 Overall, the goal of this project is to provide valuable insights into the flight industry for stakeholders who may be interested in this domain. 
- 
-Programming languages used: R Language
-Tools used: R studio
+
+
+Tools used: R-studio  
+Programming Languages used: R
